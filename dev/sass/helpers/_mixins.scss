@@ -1,0 +1,42 @@
+@mixin btn-hover($inverst: false, $btn-color: $theme-color, $font-color: #fff){
+	@if $inverst{
+		background: $font-color;
+		color: $btn-color;
+		font-size: .875rem;
+		text-transform: uppercase;
+		padding: 19px 40px;
+		line-height: 1;
+		font-family: $header-font;
+		font-weight: bold;
+		text-decoration: none;
+		border: 1px solid $font-color;
+		border-radius: 0;
+		transition-property: color, background, box-shadow;
+		transition: 0.5s ease;
+
+			&:hover{
+				color: $font-color;
+				background: $btn-color;
+			}
+		}	
+	@else{	
+		background: $btn-color;
+		color: $font-color;
+		font-size: .875rem;
+		text-transform: uppercase;
+		padding: 19px 40px;
+		line-height: 1;
+		font-family: $header-font;
+		font-weight: bold;
+		text-decoration: none;
+		border: 1px solid $btn-color;
+		border-radius: 0;
+		transition-property: color, background, box-shadow;
+		transition: 0.5s ease;
+		
+		&:hover{
+			color: $btn-color;
+			background: $font-color;
+		}
+	}		
+}

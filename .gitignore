@@ -1,0 +1,7 @@
+*.psd
+node_modules/
+PSD/
+scss/pages/
+sass/pages/
+css/
+.idea/

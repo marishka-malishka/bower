@@ -1,0 +1,17 @@
+.social-icons{
+	a{
+		padding: 5px;
+		color: $font-color-2;
+		margin: 0 3px;
+		text-decoration: none;
+
+		&:hover{
+			color: $theme-color;
+		}
+
+		&:last-child{
+			padding-right: 0;
+			margin-right: 0;
+		}
+	}
+}

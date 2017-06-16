@@ -1,0 +1,23 @@
+{
+  "name": "bower",
+  "homepage": "https://github.com/MarinaMaiboroda/bootstrap",
+  "authors": [
+    "MarinaMaiboroda <sms-ka@ukr.net>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "prod/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "3.2.1",
+    "bootstrap-sass": "^3.3.7",
+    "jquery-smooth-scroll": "^2.2.0"
+  }
+}

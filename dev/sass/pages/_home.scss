@@ -1,0 +1,49 @@
+.first-section{
+	background: #fff url('../images/first-bg.png') center center no-repeat;
+	background-size: cover;
+	min-height: 850px;
+	margin-bottom: 50px;
+
+	h2{
+		display: inline-block;
+		width: auto;
+		padding: 10px 19px;
+		background: $theme-color;
+		text-transform: uppercase;
+		font-size: 1.125rem;
+		line-height: 1;
+		margin: 100px 0 0 0;
+	}
+
+	h1{
+		text-transform: uppercase;
+		font-size: 3rem;
+		padding: 22px 37px;
+		border: 10px solid $font-color;
+		margin: 0;
+		white-space: nowrap;
+	}
+
+	p{
+		margin-top: 26px;
+
+		&:last-child{
+			margin-bottom: 120px;
+		}
+	}
+}
+
+.home-post{
+	p{
+		line-height: 1.875;
+		margin-top: 0;
+
+		&:last-of-type{
+			margin-bottom: 30px;
+		}
+	}
+
+	.btn{
+		transform: translateY(50%);
+	}
+}

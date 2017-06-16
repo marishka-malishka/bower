@@ -1,0 +1,47 @@
+.get-in-touch{
+	padding: 45px 0;
+	background: $theme-color;
+	color: #fff;
+
+	h3{
+		font-size: 1.875rem;
+		line-height: 1.8;
+		margin: 0 0 20px 0;
+	}
+}
+
+.form-wrap{
+	padding: 20px;
+	background: #fff;
+
+	h3{
+		width: 80%;
+		color: $font-color;
+		font-size: 1.5rem;
+		line-height: 1.5;
+	}
+
+	.form-inline{
+		font-size: 0;
+	}
+
+	input.form-control{
+		padding: 18px 15px;
+		height: auto;;
+		width: 100%;
+		font-size: .75rem;
+		font-family: $header-font;
+		text-transform: uppercase;
+		font-weight: bold;
+		border-radius: 0;
+	}
+
+	p{
+		margin-bottom: 30px;
+		color: $font-color-2;
+	}
+
+	.form-group{
+		width: calc(100% - 125px);
+	}
+}
